@@ -1,0 +1,28 @@
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+header {
+  background-color: olive;
+  padding: 60px;
+}
+span {
+  font-style: italic;
+}
+#historia {
+  background-color: brown;
+  color: burlywood;
+}
+#ingredientes {
+  background-color: burlywood;
+  color: brown;
+}
+.section-title {
+  text-align: center;
+}
+.primer-parrafo {
+  padding: 40px;
+}
+.imagen {
+  height: 250px;
+}
