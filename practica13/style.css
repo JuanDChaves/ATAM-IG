@@ -1,0 +1,27 @@
+body {
+  background-color: #999;
+  font-family: monospace;
+}
+header {
+  background-color: #444;
+}
+h1.title {
+  text-decoration: underline;
+}
+a:link {
+  text-decoration: none;
+  color: antiquewhite;
+}
+a:visited {
+  color: antiquewhite;
+}
+a:hover {
+  background-color: aqua;
+  color: blue;
+}
+body footer {
+  background-color: #444;
+}
+footer span {
+  color: lightgreen;
+}
