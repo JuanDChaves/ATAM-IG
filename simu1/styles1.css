@@ -3,10 +3,13 @@ body {
   /* max-width: 960px; */
   font-family: "Public Sans", sans-serif;
   font-size: 16px;
+  background-image: url(./images/fondo.jpg);
 }
 
 .main-container {
+  background-color: white;
   margin: 50px 150px;
+  border: solid white 10px;
 }
 
 .header-main-title {
@@ -24,6 +27,8 @@ body {
 
 ul {
   list-style-type: none;
+  padding: 0px;
+  margin: 10px 0px;
 }
 
 li {
@@ -32,36 +37,43 @@ li {
   padding: 20px;
 }
 
-li:hover {
-  background-color: #2e2381;
-}
-
 a {
   text-decoration: none;
   font-weight: bold;
 }
-
+a:link {
+  color: #2e2381;
+}
+a:visited {
+  color:
+}
 a:hover {
+  background-color: #2e2381;
   color: #4ca5c3;
+}
+a:active {
+  color:
 }
 
 .hr-header {
   background-color: #2e2381;
   height: 5px;
+  margin: 0px;
 }
 
 main {
   display: flex;
 }
 
-/* .left-column {
-  position: 50%;
+.left-column {
+  width: 50%;
 }
 
 .right-column {
-} */
+  width: 50%;
+}
 article {
-  padding: 25px;
+  padding: 15px;
   position: relative;
 }
 
@@ -72,7 +84,8 @@ article {
 }
 
 .article-image {
-  position: relative;
+  float: left;
+  padding: 10px;
 }
 
 .card {
@@ -99,17 +112,6 @@ footer {
   text-align: center;
 }
 
-/* |||||FALTA|||||| 
-
--- Backgroung image
--- text around image
--- links
--- gap between header and main 
--- column proportion  */
-
-/* .background-img {
-  background-image: repeat;
-} */
 /* colores
 #BE2C2D rojo
 #4CA5C3 azul claro
@@ -118,5 +120,5 @@ footer {
 #EC8290 rosa card
 #EEEEEE gris card
 */
-/* fonts 
+/* fonts
 font-family: 'Public Sans', sans-serif; */
