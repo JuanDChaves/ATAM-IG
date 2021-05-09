@@ -1,0 +1,132 @@
+body {
+  box-sizing: border-box;
+  /* max-width: 960px; */
+  font-family: "Public Sans", sans-serif;
+  font-size: 16px;
+  background-image: url(./images/fondo.jpg);
+}
+
+.main-container {
+  background-color: white;
+  margin: 50px 150px;
+  border: solid white 10px;
+}
+
+.header-main-title {
+  background-color: #be2c2d;
+  margin: 0px;
+  padding: 10px;
+}
+
+.header-second-title {
+  background-color: #4ca5c3;
+  color: white;
+  margin: 0px;
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 10px 0px;
+}
+
+li {
+  display: inline;
+  color: #2e2381;
+  padding: 20px 20px 20px 10px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+a:link {
+  color: #2e2381;
+}
+a:visited {
+  color:
+}
+a:hover {
+  background-color: #2e2381;
+  color: #4ca5c3;
+}
+a:active {
+  color:
+}
+
+.hr-header {
+  background-color: #2e2381;
+  height: 5px;
+  margin: 0px;
+}
+
+main {
+  display: flex;
+}
+
+.left-column {
+  width: 32%;
+}
+
+.right-column {
+  width: 68%;
+}
+article {
+  padding: 15px;
+  position: relative;
+}
+
+.article-title {
+  padding: 10px;
+  background-color: #2e2381;
+  color: white;
+  margin: 0px;
+  font-size: 1.2em;
+}
+
+.article-image {
+  float: left;
+  padding: 10px;
+}
+
+.card {
+  padding: 10px;
+  margin: 0px;
+}
+
+section h3 {
+  margin: 0px;
+}
+
+.hr-card {
+  color: #2e2381;
+  margin: 0px;
+}
+.carl-card {
+  background-color: #6bb3cc;
+}
+.russell-card {
+  background-color: #ec8290;
+}
+.dug-card {
+  background-color: #eee;
+}
+
+footer {
+  background-color: #be2c2d;
+  padding: 10px;
+  text-align: center;
+}
+
+/* colores
+#BE2C2D rojo
+#4CA5C3 azul claro
+#2E2381 azul oscuro
+#6BB3CC azul card
+#EC8290 rosa card
+#EEEEEE gris card
+*/
+/* fonts
+font-family: 'Public Sans', sans-serif; */
