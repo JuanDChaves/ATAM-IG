@@ -1,0 +1,121 @@
+body {
+  box-sizing: border-box;
+  /* max-width: 960px; */
+  font-family: "Public Sans", sans-serif;
+  font-size: 16px;
+}
+
+.main-container {
+  margin: 50px 150px;
+}
+
+.header-main-title {
+  background-color: #be2c2d;
+  margin: 0px;
+  padding: 10px;
+}
+
+.header-second-title {
+  background-color: #4ca5c3;
+  color: white;
+  margin: 0px;
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+  color: #2e2381;
+  padding: 20px;
+}
+
+li:hover {
+  background-color: #2e2381;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #4ca5c3;
+}
+
+.hr-header {
+  background-color: #2e2381;
+  height: 5px;
+}
+
+main {
+  display: flex;
+}
+
+.left-column {
+  position: 50%;
+}
+
+.right-column {
+}
+article {
+  padding: 25px;
+  position: relative;
+}
+
+.article-title {
+  padding: 10px;
+  background-color: #2e2381;
+  color: white;
+}
+
+.article-image {
+  position: relative;
+}
+
+.card {
+  padding: 10px;
+  margin: 0px;
+}
+
+.hr-card {
+  color: #2e2381;
+}
+.carl-card {
+  background-color: #6bb3cc;
+}
+.russell-card {
+  background-color: #ec8290;
+}
+.dug-card {
+  background-color: #eee;
+}
+
+footer {
+  background-color: #be2c2d;
+  padding: 10px;
+  text-align: center;
+}
+
+/* |||||FALTA|||||| 
+
+-- Backgroung image
+-- text around image
+-- links
+-- gap between header and main  */
+
+/* .background-img {
+  background-image: repeat;
+} */
+/* colores
+#BE2C2D rojo
+#4CA5C3 azul claro
+#2E2381 azul oscuro
+#6BB3CC azul card
+#EC8290 rosa card
+#EEEEEE gris card
+*/
+/* fonts 
+font-family: 'Public Sans', sans-serif; */
